@@ -1,8 +1,8 @@
 {
-  "version": "0.1.9",
-  "url": "https://github.com/guanyafei00/DGO/releases/download/v0.1.9-beta/DGO.Setup.0.1.9.exe",
-  "sha256": "118707302621b8fd1a4824105c57bf305dd59ce472cf0fb08d3e679b306fc77b",
-  "notes": "DGO v0.1.9-beta\n\n队列设置进设置页\n- 「同时下载任务数」1~5 可调（默认 2）：调小立即收敛、调大立即补位启动排队任务\n- 「下载限速」MB/s 可填（0=不限）：下载时想玩游戏/开会就给它限个速\n- 限速对视频下载生效（yt-dlp 与抖音/快手直连引擎）；图文站走请求间隔防风控，不限速\n- 两项设置随迁移包导出/导入，导入后立即生效\n\n删帖清单导出\n- 订阅页新增「📤 删帖清单」：把判定为「源头已删除」的内容导出 CSV\n- 六列明细：订阅名 / 类型 / 内容 ID / 源头链接 / 本地文件 / 本地是否还在（带 BOM，Excel 直接打开中文不乱码）\n- 本地文件列 = 你机器上还存着的对应文件，方便决定要不要清理\n\n安装说明：下载 DGO.Setup.0.1.9.exe 直接安装。0.1.4 及以上版本会收到应用内自动更新推送。",
-  "page": "https://github.com/guanyafei00/DGO/releases/tag/v0.1.9-beta",
-  "sig": "wpfSQSe3TTKA3IP0cRKSPciDm6s0e8Cb+5Wh9et0KL/FC9fxdO2RuhVD/Rese3CjVq2lmKOP41wLVu/udFP9Cw=="
+  "version": "0.2.2",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.2/Keepsake.Setup.0.2.2.exe",
+  "sha256": "392b175f7cc5a691a7444d9e9b3c78b523b36d4b0498d878d82bc39006aa42de",
+  "notes": "Keepsake v0.2.2\n\n订阅检查失败的原因说人话了\n- 以前失败就一串英文报错（HttpError 401、AuthenticationError 之类），现在直接告诉你要做什么：缺 Cookie、要 Pixiv 授权、站点限流、网络超时、站点拒绝访问……每条都带下一步操作\n- 订阅卡片上失败原因有虚线下划线，鼠标悬停能看原始技术报错\n- 「⟳ 立即检查」跑完后会汇总：几个失败、是哪几个，不用再逐个卡片找",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.2",
+  "sig": "32GNz+LNNfW5iK7InZgjR0ncO9DbHQd7jECsPI1B/IllXdW3bLCjnfHIMGh6adH5Lt3M8z2aTbVblu1JM+axCA=="
 }
