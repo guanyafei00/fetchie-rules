@@ -1,8 +1,8 @@
 {
-  "version": "0.2.3",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.3/Keepsake.Setup.0.2.3.exe",
-  "sha256": "88a3227c5ec458e0c8d8e40ba807d3c368131b39489cbfb60b52e75c1a3a45af",
-  "notes": "Keepsake v0.2.3\n\n订阅失败提示继续说人话\n- 报错里带了站点名的（X、Instagram、微博、B站等），现在直接告诉你哪个站、该干什么，比如「X（推特）需要登录才能看：到 设置 → Cookie 管理 导入它的 cookies.txt」\n- 「账号找不到」单独一类提示：可能是对方改名或注销了，也可能是 Instagram 要登录才可见\n- 「连续失败暂停」的标签悬停后也显示人话原因，不再是一串英文",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.3",
-  "sig": "+4978Q0/lUMWwa6rL80CKPwqgyKXWKmKw1vzehqkr72D0FBCwkJciUropoAgV/FTE1P6LLYfUWZcx28KZ67jAA=="
+  "version": "0.2.4",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.4/Keepsake.Setup.0.2.4.exe",
+  "sha256": "34ff729427a215b2576443161fc1285d607afee2965a3b76f0e009e375256604",
+  "notes": "Keepsake v0.2.4\n\n订阅和媒体库一键直达原链接\n- 订阅卡片新增 🔗 按钮：浏览器直接打开这个订阅的原页面\n- 媒体库文件新增 🔗 按钮：浏览器打开这个文件的下载来源链接\n- 链接由应用内部查表取得再打开，更安全；早期下载的老文件没有来源记录，点击会提示（新下载的都有）",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.4",
+  "sig": "icEmBif1ao2avyAAIChhK0L4zbXZbcIqPZraIp/Bst68O2GYRPAPssyPAxzJ2IWmgt2VM4rWmLZ/wu93CoAYDQ=="
 }
