@@ -1,8 +1,8 @@
 {
-  "version": "0.2.2",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.2/Keepsake.Setup.0.2.2.exe",
-  "sha256": "392b175f7cc5a691a7444d9e9b3c78b523b36d4b0498d878d82bc39006aa42de",
-  "notes": "Keepsake v0.2.2\n\n订阅检查失败的原因说人话了\n- 以前失败就一串英文报错（HttpError 401、AuthenticationError 之类），现在直接告诉你要做什么：缺 Cookie、要 Pixiv 授权、站点限流、网络超时、站点拒绝访问……每条都带下一步操作\n- 订阅卡片上失败原因有虚线下划线，鼠标悬停能看原始技术报错\n- 「⟳ 立即检查」跑完后会汇总：几个失败、是哪几个，不用再逐个卡片找",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.2",
-  "sig": "32GNz+LNNfW5iK7InZgjR0ncO9DbHQd7jECsPI1B/IllXdW3bLCjnfHIMGh6adH5Lt3M8z2aTbVblu1JM+axCA=="
+  "version": "0.2.3",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.3/Keepsake.Setup.0.2.3.exe",
+  "sha256": "88a3227c5ec458e0c8d8e40ba807d3c368131b39489cbfb60b52e75c1a3a45af",
+  "notes": "Keepsake v0.2.3\n\n订阅失败提示继续说人话\n- 报错里带了站点名的（X、Instagram、微博、B站等），现在直接告诉你哪个站、该干什么，比如「X（推特）需要登录才能看：到 设置 → Cookie 管理 导入它的 cookies.txt」\n- 「账号找不到」单独一类提示：可能是对方改名或注销了，也可能是 Instagram 要登录才可见\n- 「连续失败暂停」的标签悬停后也显示人话原因，不再是一串英文",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.3",
+  "sig": "+4978Q0/lUMWwa6rL80CKPwqgyKXWKmKw1vzehqkr72D0FBCwkJciUropoAgV/FTE1P6LLYfUWZcx28KZ67jAA=="
 }
