@@ -1,8 +1,8 @@
 {
-  "version": "0.2.4",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.4/Keepsake.Setup.0.2.4.exe",
-  "sha256": "34ff729427a215b2576443161fc1285d607afee2965a3b76f0e009e375256604",
-  "notes": "Keepsake v0.2.4\n\n订阅和媒体库一键直达原链接\n- 订阅卡片新增 🔗 按钮：浏览器直接打开这个订阅的原页面\n- 媒体库文件新增 🔗 按钮：浏览器打开这个文件的下载来源链接\n- 链接由应用内部查表取得再打开，更安全；早期下载的老文件没有来源记录，点击会提示（新下载的都有）",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.4",
-  "sig": "icEmBif1ao2avyAAIChhK0L4zbXZbcIqPZraIp/Bst68O2GYRPAPssyPAxzJ2IWmgt2VM4rWmLZ/wu93CoAYDQ=="
+  "version": "0.2.5",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.5/Keepsake.Setup.0.2.5.exe",
+  "sha256": "14ee0a58d746e623a6f5945a460c6b2e8e7562bfc5be4f71488f0d607e7185d7",
+  "notes": "Keepsake v0.2.5\n\nInstagram 检查失败提示更明白 + 引擎兜底源修复\n- Instagram 检查失败不再甩英文：它最近改了接口，现在会直接告诉你「接口临时变更，下载器官方正在跟进，不是你的 Cookie 或账号的问题」\n- 站点名识别修了个小 bug：带「gallery-dl 退出码」前缀的报错，之前认不出是哪个站点，现在能认出来了\n- 修复引擎兜底下载源：某些情况下下载引擎装不回来（安装后目录被清、官方源又连不上），现在会从 Keepsake 官方 Release 拉取",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.5",
+  "sig": "5WqqxX1B4Q638An8PJ1pX1jWWB9SN/NRk3lujA6f04sHxpjYQ9cH+VcXbph98qaJWa4qpfS1XvDuhGyzphIMCw=="
 }
