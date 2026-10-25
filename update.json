@@ -1,0 +1,8 @@
+{
+  "version": "0.2.14",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.14/Keepsake.Setup.0.2.14.exe",
+  "sha256": "8afb323682aec3ecb7551a73eecfa688f3650a91a7d7edf5f3e43e6d4ade5feb",
+  "notes": "Keepsake v0.2.14\n\n下载引擎检查的报错修了\n- 上一版把真实报错显示出来了，这次看到的错误是「读取 notes 属性时对象不存在」：渲染更新提示的时候少了个数据，整个列表没画出来\n- 顺手加了保护，提示数据缺了就跳过，不再连累整个检查结果\n- 如果还能看到报错，错误下面会多一行代码位置，发出来就能查",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.14",
+  "sig": "SnsATv/0KCXB9Qe1RbikB4JLnHTpmtdSpwEjO+GI3Y0gZ98NTIF0ZUQ4c8ruzgKjFg9rvfnDkElUJV2Un3GfBQ=="
+}

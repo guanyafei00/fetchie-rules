@@ -1,0 +1,16 @@
+{
+  "yt-dlp.exe": {
+    "version": "2026.10.21",
+    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.21/yt-dlp.exe",
+    "sha256": "",
+    "notes": "yt-dlp 官方稳定版（校验走官方 SHA2-256SUMS，下载后自动验）",
+    "page": "https://github.com/yt-dlp/yt-dlp/releases/tag/2026.10.21"
+  },
+  "gallery-dl.exe": {
+    "version": "v1.32.17",
+    "url": "https://codeberg.org/mikf/gallery-dl/releases/download/v1.32.17/gallery-dl.exe",
+    "sha256": "77c8f4c6808cf1044a54ec7187b548f5977f7c304d5432b63cf6cfdfe70ffc12",
+    "notes": "gallery-dl 官方稳定版（上游暂未适配 Instagram 新接口，追 IG 用开发版）",
+    "page": "https://codeberg.org/mikf/gallery-dl/releases/tag/v1.32.17"
+  }
+}

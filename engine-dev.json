@@ -1,0 +1,9 @@
+{
+  "gallery-dl.exe": {
+    "version": "1.33.0-dev",
+    "built": "2026-10-25",
+    "url": "https://github.com/guanyafei00/Keepsake/releases/latest/download/gallery-dl-dev.exe",
+    "sha256": "da13d69bf7a1f2aad216ddcdf82bdf5512c239a5ba208960ed1ec8cc73e66027",
+    "notes": "从上游 gallery-dl master 分支构建（Keepsake 打包，代码原样未改）。相对稳定版 1.32.17 的主要更新：\n- Instagram：动态收集 relay 参数，修复账号拉取报错（KeyError 'data' / missing_required_variable_value）\n- Instagram：修复 stories/highlights 拉取\n- Instagram：relay 参数提取改进\n- 其他站点常规修复（nhentai / deviantart / tiktok / mixdrop 等）\n提醒：开发版未经完整测试，追新修复选它，求稳选稳定版。"
+  }
+}
