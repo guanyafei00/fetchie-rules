@@ -1,8 +1,8 @@
 {
-  "version": "0.2.10",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.10/Keepsake.Setup.0.2.10.exe",
-  "sha256": "7022b589ab674637b1b45a3b8f34e6f48590aa90ee1dd6cd7ad2c5f29f79a796",
-  "notes": "Keepsake v0.2.10\n\n网络不佳也能更新引擎 + 设置分类调整\n- 引擎检查/下载支持国内镜像自动回退：直连 GitHub/Codeberg 失败时自动换镜像（ghfast.top / gh-proxy.com）重试，不用再手动折腾\n- 上游接口全部连不上时，引擎版本信息回落到我们自己的更新源（GitHub Pages 直读 + jsdelivr 国内 CDN 双通道），「检查失败」出现率大幅降低\n- 镜像下载不牺牲安全：yt-dlp 保留官方哈希校验，gallery-dl 校验固化哈希，对不上直接丢弃\n- 设置页分类顺序调整：Cookie 管理挪到最上方（最常用），其余顺延",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.10",
-  "sig": "2bz7YxR2KCEcBrFFxeL5K6ROaygThlKsQzLvECZj/AiV79iQYmr6AnUSgBs6/feW+ViVE1f3OTkQMfsCIWsqBQ=="
+  "version": "0.2.15",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.15/Keepsake.Setup.0.2.15.exe",
+  "sha256": "11184ec05acd0cf77df67a21770f2dbb14a3e8016f702fb623e5ac458e3679ad",
+  "notes": "Keepsake v0.2.15\n\n网页文章也能收了,磁盘占用砍了一大半。\n- 文章归档:公众号/知乎/B站专栏/CSDN/博客园/掘金/少数派/简书,贴链接存整页(离线可看+全文搜索),删帖改文有标记\n- RSS 订阅:博客 RSS/Atom 自动追更新文章\n- 磁盘优化:修正转写模型体积标注错误(此前 Turbo 标 547MB 实际 1.5GB),推荐档改 Small(466MB),新增模型删除按钮,语言包瘦身\n- 网页存档安全加固,经三轮审查测试验证",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.15",
+  "sig": "Z01Csr3/UjHwZh8XhsxQJnLxoCCoiHFQHxdG2fxSg4QVK8vPPWIUgJC+cM6sA3UdkcrvG/cpK3kcvjyhPb+LAQ=="
 }
