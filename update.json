@@ -1,8 +1,8 @@
 {
-  "version": "0.2.14",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.14/Keepsake.Setup.0.2.14.exe",
-  "sha256": "8afb323682aec3ecb7551a73eecfa688f3650a91a7d7edf5f3e43e6d4ade5feb",
-  "notes": "Keepsake v0.2.14\n\n下载引擎检查的报错修了\n- 上一版把真实报错显示出来了，这次看到的错误是「读取 notes 属性时对象不存在」：渲染更新提示的时候少了个数据，整个列表没画出来\n- 顺手加了保护，提示数据缺了就跳过，不再连累整个检查结果\n- 如果还能看到报错，错误下面会多一行代码位置，发出来就能查",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.14",
-  "sig": "SnsATv/0KCXB9Qe1RbikB4JLnHTpmtdSpwEjO+GI3Y0gZ98NTIF0ZUQ4c8ruzgKjFg9rvfnDkElUJV2Un3GfBQ=="
+  "version": "0.2.10",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.10/Keepsake.Setup.0.2.10.exe",
+  "sha256": "7022b589ab674637b1b45a3b8f34e6f48590aa90ee1dd6cd7ad2c5f29f79a796",
+  "notes": "Keepsake v0.2.10\n\n网络不佳也能更新引擎 + 设置分类调整\n- 引擎检查/下载支持国内镜像自动回退：直连 GitHub/Codeberg 失败时自动换镜像（ghfast.top / gh-proxy.com）重试，不用再手动折腾\n- 上游接口全部连不上时，引擎版本信息回落到我们自己的更新源（GitHub Pages 直读 + jsdelivr 国内 CDN 双通道），「检查失败」出现率大幅降低\n- 镜像下载不牺牲安全：yt-dlp 保留官方哈希校验，gallery-dl 校验固化哈希，对不上直接丢弃\n- 设置页分类顺序调整：Cookie 管理挪到最上方（最常用），其余顺延",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.10",
+  "sig": "2bz7YxR2KCEcBrFFxeL5K6ROaygThlKsQzLvECZj/AiV79iQYmr6AnUSgBs6/feW+ViVE1f3OTkQMfsCIWsqBQ=="
 }
