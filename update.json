@@ -1,8 +1,8 @@
 {
-  "version": "0.2.15",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.15/Keepsake.Setup.0.2.15.exe",
-  "sha256": "689987ea63a0d13f164fa6879faef6ca23235819e55ee3a999d61f2bc2e8e3fe",
-  "notes": "Keepsake v0.2.15\n\n网页文章也能收了,磁盘占用砍了一大半。\n- 文章归档:公众号/知乎/B站专栏/CSDN/博客园/掘金/少数派/简书,贴链接存整页(离线可看+全文搜索),删帖改文有标记\n- RSS 订阅:博客 RSS/Atom 自动追更新文章\n- 磁盘优化:修正转写模型体积标注错误(此前 Turbo 标 547MB 实际 1.5GB),推荐档改 Small(466MB),新增模型删除按钮,语言包瘦身\n- 网页存档安全加固,经三轮审查测试验证",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.15",
-  "sig": "LE1TOy+qwSDkZ9qVCiQzS+5dA1uS7BsI9mVegL++U2s2oT4xUWpiIpUK6CNSqDIKtmbEMBsWnibgL7pTjtwzAg=="
+  "version": "0.2.16",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.16/Keepsake.Setup.0.2.16.exe",
+  "sha256": "b115a200473f7ff280ae66048c35e186bcbe4a8cdb19ad1108bcb771aef5b812",
+  "notes": "## v0.2.16 更新说明\r\n\r\n修了一个「更新自己」的 bug：0.2.15 部分用户点了更新却一直报「哈希校验失败」，实际是更新通道本身的问题，不是安装包坏了。\r\n\r\n- 修更新：安装前强制重新拉取并验签更新清单，彻底解决应用常驻托盘时拿旧内存清单校验新安装包、导致永久失败的问题\r\n- 修更新：拉清单加缓存击穿参数，避免 GitHub Pages 的 CDN 缓存续命旧哈希\r\n- 修更新：下载到安装包先校验 PE 头，被墙网络把网页当文件返回时明确提示「下载到的不是安装包」\r\n- 修更新：哈希不符时把「期望/实得」哈希都报出来，方便定位是清单错还是下载错\r\n- 修更新：移除已失效的 ghfast.top 镜像，仅保留 gh-proxy.com\r\n\r\n如果你是 0.2.15 卡在更新失败的用户：完全退出 Keepsake 再重新打开，点检查更新即可正常升级到 0.2.16。",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.16",
+  "sig": "Wj1qIO2yW/3EsEG7KIvCqgOJWj160q4v7sNcbMb5vxck3yqlBWYqsyY9WQNmVSQue3ypg26vAtNwfwwAqfSEBQ=="
 }
