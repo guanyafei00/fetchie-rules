@@ -1,8 +1,8 @@
 {
   "version": "0.2.15",
   "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.15/Keepsake.Setup.0.2.15.exe",
-  "sha256": "11184ec05acd0cf77df67a21770f2dbb14a3e8016f702fb623e5ac458e3679ad",
+  "sha256": "689987ea63a0d13f164fa6879faef6ca23235819e55ee3a999d61f2bc2e8e3fe",
   "notes": "Keepsake v0.2.15\n\n网页文章也能收了,磁盘占用砍了一大半。\n- 文章归档:公众号/知乎/B站专栏/CSDN/博客园/掘金/少数派/简书,贴链接存整页(离线可看+全文搜索),删帖改文有标记\n- RSS 订阅:博客 RSS/Atom 自动追更新文章\n- 磁盘优化:修正转写模型体积标注错误(此前 Turbo 标 547MB 实际 1.5GB),推荐档改 Small(466MB),新增模型删除按钮,语言包瘦身\n- 网页存档安全加固,经三轮审查测试验证",
   "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.15",
-  "sig": "Z01Csr3/UjHwZh8XhsxQJnLxoCCoiHFQHxdG2fxSg4QVK8vPPWIUgJC+cM6sA3UdkcrvG/cpK3kcvjyhPb+LAQ=="
+  "sig": "LE1TOy+qwSDkZ9qVCiQzS+5dA1uS7BsI9mVegL++U2s2oT4xUWpiIpUK6CNSqDIKtmbEMBsWnibgL7pTjtwzAg=="
 }
