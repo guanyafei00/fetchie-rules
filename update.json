@@ -1,8 +1,8 @@
 {
-  "version": "0.2.16",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.16/Keepsake.Setup.0.2.16.exe",
-  "sha256": "b115a200473f7ff280ae66048c35e186bcbe4a8cdb19ad1108bcb771aef5b812",
-  "notes": "## v0.2.16 更新说明\r\n\r\n修了一个「更新自己」的 bug：0.2.15 部分用户点了更新却一直报「哈希校验失败」，实际是更新通道本身的问题，不是安装包坏了。\r\n\r\n- 修更新：安装前强制重新拉取并验签更新清单，彻底解决应用常驻托盘时拿旧内存清单校验新安装包、导致永久失败的问题\r\n- 修更新：拉清单加缓存击穿参数，避免 GitHub Pages 的 CDN 缓存续命旧哈希\r\n- 修更新：下载到安装包先校验 PE 头，被墙网络把网页当文件返回时明确提示「下载到的不是安装包」\r\n- 修更新：哈希不符时把「期望/实得」哈希都报出来，方便定位是清单错还是下载错\r\n- 修更新：移除已失效的 ghfast.top 镜像，仅保留 gh-proxy.com\r\n\r\n如果你是 0.2.15 卡在更新失败的用户：完全退出 Keepsake 再重新打开，点检查更新即可正常升级到 0.2.16。",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.16",
-  "sig": "Wj1qIO2yW/3EsEG7KIvCqgOJWj160q4v7sNcbMb5vxck3yqlBWYqsyY9WQNmVSQue3ypg26vAtNwfwwAqfSEBQ=="
+  "version": "0.2.17",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.2.17/Keepsake.Setup.0.2.17.exe",
+  "sha256": "86129a7c2f082e6296ead34229b9604ba946700a78afe69f07e9c7ec613f2580",
+  "notes": "## v0.2.17 更新说明\n\n- 修转写：本地转写能看到实时百分比进度了——之前一直卡在「转写中」不动，是进度读错了输出通道\n- 修下载：修复下载进行中任务记录可能保存失败、界面进度停更的问题\n- 改进归档：部分平台的内容按「作者」子目录归档，媒体库不再一股脑堆进未分类\n- 修复若干稳定性问题\n",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.2.17",
+  "sig": "EgeLnUZTEcHXy6v7XqKRH5uq6/5wbeCUiAiGzD6r2IWtqlDVJaFnx1Qs36yIZW/1RmdeFDpg6HTc02QCfnLAAw=="
 }
