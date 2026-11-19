@@ -1,8 +1,8 @@
 {
-  "version": "0.3.0",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.3.0/Keepsake.Setup.0.3.0.exe",
-  "sha256": "de202223cf1768df78d12ca173bbc36cf36c554ebe46a72f8929c2d7a81ea8f3",
-  "notes": "## v0.3.0 更新说明\n\n这次攒了一批新功能，直接升 0.3：\n\n- 剪贴板收集：复制一条支持站点的链接，Keepsake 会主动提示可以归档（设置里可关）\n- 粘贴先确认：贴链接先弹确认卡片，标题、封面、类型一目了然，点「开始下载」才真正入队\n- 订阅回溯上限：添加订阅时可选只补最新 10/20/50/100 条，不必每次全量回溯\n- 图集成册：图站归档的散图一键打包成 CBZ 漫画册（带 ComicInfo.xml 元数据），也可以在设置里开启下载完成自动打包\n- 崩溃恢复：异常退出后再启动会提示上次没下完的任务，一键接着下（已下载的文件自动跳过）\n- 修杂项：中文文件名的报错信息不再乱码；修正个别误报「操作频繁」的判断；下载记录超量自动清理，不再无限膨胀\n",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.3.0",
-  "sig": "26ow0F+3s50fm6ZyoZzSEnKd287i5ZXLSfrxMkipoZ+h2bQJQdMMwKQoZurkbyW+n2WvrkJHyB5xqYnxXe7dCQ=="
+  "version": "0.3.1",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.3.1/Keepsake.Setup.0.3.1.exe",
+  "sha256": "41213fd75751ee0c80e45b3dbb81e69d39124e69a3a612836288e259c974d9c0",
+  "notes": "这次主要是界面大改版和安全加固：\n\n- 新增深浅色主题与强调色自定义；另附两套可选的整站界面风格（信息流 / 仪表盘），设置里实时预览\n- 设置页重组：全部设置项分组导航 + 搜索\n- 安全加固：本机凭据改用系统级加密存储；更新清单与规则文件均带签名校验；许可证统一为 MIT\n- 内置浏览器窗口新增「复制链接」按钮，一键取当前页链接\n- 图文引擎更新到 1.32.20，若干订阅站的抓取与排序稳定性修复\n- 修杂项：崩溃恢复、显示细节等小修",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.3.1",
+  "sig": "EmLFevyHCk3gtBG8/8zQ33FGbO8R0vjqluHvvRWULP51Zy9yxL4WiTY+GHVQg5Assmf2AuIVTapm9lWfhHTxBA=="
 }
