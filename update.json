@@ -1,8 +1,8 @@
 {
-  "version": "0.3.1",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.3.1/Keepsake.Setup.0.3.1.exe",
-  "sha256": "41213fd75751ee0c80e45b3dbb81e69d39124e69a3a612836288e259c974d9c0",
-  "notes": "这次主要是界面大改版和安全加固：\n\n- 新增深浅色主题与强调色自定义；另附两套可选的整站界面风格（信息流 / 仪表盘），设置里实时预览\n- 设置页重组：全部设置项分组导航 + 搜索\n- 安全加固：本机凭据改用系统级加密存储；更新清单与规则文件均带签名校验；许可证统一为 MIT\n- 内置浏览器窗口新增「复制链接」按钮，一键取当前页链接\n- 图文引擎更新到 1.32.20，若干订阅站的抓取与排序稳定性修复\n- 修杂项：崩溃恢复、显示细节等小修",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.3.1",
-  "sig": "EmLFevyHCk3gtBG8/8zQ33FGbO8R0vjqluHvvRWULP51Zy9yxL4WiTY+GHVQg5Assmf2AuIVTapm9lWfhHTxBA=="
+  "version": "0.3.2",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.3.2/Keepsake.Setup.0.3.2.exe",
+  "sha256": "9c2a75d71bc5f9f2268335e6ac9209503a5cafaff6131c69dec84ebcab7ed4b7",
+  "notes": "这版主要是归档内容和订阅稳定性：\n\n- 归档的内容现在会附带可搜索的文本笔记，媒体库里直接搜正文关键词就能找到，不用再翻文件名\n- 订阅检查加上频率下限与空结果识别，减少误报和无效重试\n- 内置浏览窗口的兼容性修复，登录与打开页面更稳\n- 若干显示与下载细节修正",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.3.2",
+  "sig": "v/1w1FVZP2LhTAEO7GreEq+z+SGJV40ttwYOk+d3b32eWcKXVgXHQAShhHuLM6s7k4F7AZhBdYPcYBC+TFDRBQ=="
 }
