@@ -1,8 +1,8 @@
 {
-  "version": "0.3.2",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.3.2/Keepsake.Setup.0.3.2.exe",
-  "sha256": "9c2a75d71bc5f9f2268335e6ac9209503a5cafaff6131c69dec84ebcab7ed4b7",
-  "notes": "这版主要是归档内容和订阅稳定性：\n\n- 归档的内容现在会附带可搜索的文本笔记，媒体库里直接搜正文关键词就能找到，不用再翻文件名\n- 订阅检查加上频率下限与空结果识别，减少误报和无效重试\n- 内置浏览窗口的兼容性修复，登录与打开页面更稳\n- 若干显示与下载细节修正",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.3.2",
-  "sig": "v/1w1FVZP2LhTAEO7GreEq+z+SGJV40ttwYOk+d3b32eWcKXVgXHQAShhHuLM6s7k4F7AZhBdYPcYBC+TFDRBQ=="
+  "version": "0.3.3",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.3.3/Keepsake.Setup.0.3.3.exe",
+  "sha256": "9c1f0c0db6c0c2c4df5a10a111ea96f10c00eb006e32c0bbdf4a4f7c7db163d3",
+  "notes": "这版让存下来的东西更好找、更好读：\n\n- 媒体库搜索现在连视频标题和归档正文一起搜，不再只认文件名；结果会标明是「仅文件名」还是「正文」命中\n- 单篇内容和专题都能生成 AI 摘要，笔记与文章都支持\n- 新增自动字幕开关：下载时优先抓官方字幕，拿不到的本地离线转写兜底（默认关，按需开启）\n- 若干稳定性与显示细节修正",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.3.3",
+  "sig": "y65qegUs1pHe6QLaxc+9h/FcgbuPY7Yx/T1Jl+lwh2avv7faqNPQ28gPjtYmz5zWCmige1ndQSIJ1eXO4zUDAA=="
 }
