@@ -1,8 +1,8 @@
 {
-  "version": "0.3.3",
-  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.3.3/Keepsake.Setup.0.3.3.exe",
-  "sha256": "9c1f0c0db6c0c2c4df5a10a111ea96f10c00eb006e32c0bbdf4a4f7c7db163d3",
-  "notes": "这版让存下来的东西更好找、更好读：\n\n- 媒体库搜索现在连视频标题和归档正文一起搜，不再只认文件名；结果会标明是「仅文件名」还是「正文」命中\n- 单篇内容和专题都能生成 AI 摘要，笔记与文章都支持\n- 新增自动字幕开关：下载时优先抓官方字幕，拿不到的本地离线转写兜底（默认关，按需开启）\n- 若干稳定性与显示细节修正",
-  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.3.3",
-  "sig": "y65qegUs1pHe6QLaxc+9h/FcgbuPY7Yx/T1Jl+lwh2avv7faqNPQ28gPjtYmz5zWCmige1ndQSIJ1eXO4zUDAA=="
+  "version": "0.3.4",
+  "url": "https://github.com/guanyafei00/Keepsake/releases/download/v0.3.4/Keepsake.Setup.0.3.4.exe",
+  "sha256": "c260fc384bc0acf86bd65802d272161719bc4e9a24757def6d63ad4721c0df10",
+  "notes": "这版把界面重新整理了一遍，顺手修掉几个稳定性问题：\n\n- 界面改成工作台布局：每页有清晰的标题栏和数据概览卡，任务、订阅、媒体库的内容按表格化方式重新排布，找东西更快\n- 外观设置收敛：界面风格只保留默认一种，深浅色主题和强调色照旧可以换\n- 修掉退出时偶发崩溃弹窗的问题（结束下载引擎进程的方式更稳妥）\n- 修掉顶栏按钮点不动、媒体库占用空间显示成一串裸数字等若干显示细节",
+  "page": "https://github.com/guanyafei00/Keepsake/releases/tag/v0.3.4",
+  "sig": "IPu7TZyybNzR/S8SSmDelXKHXJp4yU6//tCZ8Wbqe4W6cUy2efhzodvXQM46L7CXwfj2L3+V8nue2U7VvMl7AA=="
 }
